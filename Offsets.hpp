@@ -4,7 +4,7 @@
 // Core
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x16f9090; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x160e398; //[Miscellaneous]->LocalPlayer
+constexpr long OFF_LOCAL_PLAYER = 0x2182bf8; //[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1DD40F8; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x16f8b90; //[Miscellaneous]->GlobalVars
 
