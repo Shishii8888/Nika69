@@ -213,7 +213,7 @@ struct Player {
             settingIndex = 20;
         } else if (!isVisible) {
             settingIndex = 65;
-            glowColorRGB = { 0.5, 0.5, 0.5 }; // knocked enemies // gray color
+            glowColorRGB = { 0, 0.5, 0 }; // knocked enemies // green color
         } else if (health >= 205) {
             settingIndex = 66;
             glowColorRGB = { 1, 0, 0 }; // red shield
